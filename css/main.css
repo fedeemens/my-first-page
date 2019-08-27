@@ -90,14 +90,12 @@ footer p {
 }
 
 /*Formulario de contacto */
-.formulario {
-    background-color: rgba(223, 230, 233,.3);
-}
 @media screen and (min-width: 770px){
     .formulario {
         border:2px solid rgba(0, 0, 0, .5);
         border-radius: 14px;
         margin-top: 4rem;
+        background-color: rgba(223, 230, 233,.3);
     }
     .formulario form {
         padding: 0rem 5rem 2rem 5rem; 
