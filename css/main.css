@@ -28,6 +28,10 @@
     border-width: 5px 0px 5px 0px;
     border-color: rgba(50, 50, 50, 1);        
 }
+.presentacion h4 {
+    padding: 3rem 0rem 1rem 0rem;
+}
+
 .presentacion h1 {
     padding: 15px;
 }
