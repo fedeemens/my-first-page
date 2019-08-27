@@ -13,7 +13,7 @@
     color: rgba(60, 60, 60,.9);
     font-size: 17px;
 }
-@media(min-width: 770px){
+@media screen and (min-width: 770px){
     .navbar .ocultar{
         display: none;
     }
@@ -39,7 +39,7 @@
 }
 
 /*Promociones */
-@media(min-width: 770px){
+@media screen and (min-width: 770px){
     .promociones {
         border-bottom: 5px solid rgba(50, 50, 50, 1);
     }
@@ -106,9 +106,9 @@ footer p {
         padding-top: 2rem;
     }
 }
-@media(max-width: 770px){
+@media screen and (max-width: 770px){
     .formulario .textarea {
-        padding: 0.7rem 0 ;
+        padding: 0.7rem 0;
     }
 }
 
