@@ -108,7 +108,7 @@ footer p {
 }
 @media(max-width: 770px){
     .formulario .textarea {
-        padding: 3rem 0rem;
+        padding: 1rem 0rem;
     }
 }
 
