@@ -25,7 +25,8 @@
     background-position: center;
     background-repeat: no-repeat;
     border-style: solid;
-    border-width: 5px 0px 5px 0px;        
+    border-width: 5px 0px 5px 0px;
+    border-color: rgba(50, 50, 50, 1);        
 }
 .presentacion h1 {
     padding: 15px;
@@ -40,7 +41,7 @@
 /*Promociones */
 @media(min-width: 770px){
     .promociones {
-        border-bottom: 5px solid;
+        border-bottom: 5px solid rgba(50, 50, 50, 1);
     }
 }
 .promociones img {
