@@ -38,8 +38,10 @@
 }
 
 /*Promociones */
-.promociones {
-    border-bottom: 5px solid;
+@media(min-width: 770px){
+    .promociones {
+        border-bottom: 5px solid;
+    }
 }
 .promociones img {
     border-radius: 20px;
@@ -86,9 +88,28 @@ footer p {
     margin: 0%;
 }
 
-/*Generales */
-.titulo {
-    color: rgba(60, 60, 60,.7);
+/*Formulario de contacto */
+.formulario {
+    background-color: rgba(223, 230, 233,.3);
 }
+@media(min-width: 770px){
+    .formulario {
+        border:2px solid rgba(0, 0, 0, .5);
+        border-radius: 14px;
+        margin-top: 4rem;
+    }
+    .formulario form {
+        padding: 0rem 5rem 2rem 5rem; 
+    }
+    .formulario form div {
+        padding-top: 2rem;
+    }
+}
+@media(max-width: 770px){
+    .formulario .textarea {
+        padding: 3rem 0rem;
+    }
+}
+
 
 
